@@ -1,0 +1,28 @@
+{
+    "manifest_version": 2,
+    "name": "Netchat",
+    "version": "1.0",    
+    "icons": {
+        "48": "img/icon.png",
+        "128": "img/icon.png"
+    },
+    "applications": {
+        "gecko": {
+            "id": "git@codefanatic.de"
+        }
+    },
+    "background": {
+        "scripts": ["js/polling.js"],
+        "persistent": false
+    },
+    "options_ui": {
+        "page": "html/options.html"
+    },
+    "permissions": [
+        "alarms",
+        "storage"
+    ],    
+    "browser_action": {
+        "default_title": "Netchat"
+    }
+}
