@@ -3,8 +3,7 @@ This repository features a toolbar extension for Firefox which periodically moni
 
 It evaluates JSON responses sent from the server and sets the toolbar badge text to either "New", "Error" or "Unknown". 
 
-Run this add-on if you automatically want to be informed in the browser when a system state has changed:
-> New message has arrived
+Run this add-on if you automatically want to be informed in the browser when a system state has changed.
 
 ## Installation
 Mozilla requires add-ons to be verified. You have to run the [**Developer Edition**](https://www.mozilla.org/en-US/firefox/developer/) for Firefox in order to test this add-on.
